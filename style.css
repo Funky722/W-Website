@@ -7,6 +7,7 @@ body{
 }
 #p1{
     font-family: Poppins;
+    text-align: center;
 }
 .btn{
     border: none;
@@ -24,4 +25,8 @@ body{
 .wut {color: white;}
 .form {color: white;}
 .contact {color: white;}
+
+#logo{
+    position: relative; top: 24px;
+}
 
