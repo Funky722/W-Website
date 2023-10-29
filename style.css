@@ -1,0 +1,27 @@
+html{
+    font-family: Poppins, arial;
+    color: white;
+}
+body{
+    background: url("background.png")
+}
+#p1{
+    font-family: Poppins;
+}
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+/* on mouse hover */
+.btn:hover {background: rgba(255, 255, 255, 0);}
+
+.home {color: white;}
+.lyrics {color: white;}
+.wut {color: white;}
+.form {color: white;}
+.contact {color: white;}
+
