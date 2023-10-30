@@ -38,7 +38,24 @@ body{
 
 #sunroof{
     border: solid; width: fit-content; margin: auto; height: 480px;
+    pointer-events: none;
 }
 #menu{
+    margin: 12px;
     position: relative ; left: 20px;
+}
+#socials{
+    margin: auto; text-align: center;
+}
+#hr_top_index{
+    width: 58%;
+}
+#youtube{
+    position: relative; bottom: 15px; right: 50px;
+}
+#twitch{
+    position: relative; bottom: 7px; right: 15px;
+}
+#tiktok{
+    position: relative; bottom: 34px; left: 50px;
 }
