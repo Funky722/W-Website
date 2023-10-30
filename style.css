@@ -9,6 +9,12 @@ body{
     font-family: Poppins;
     text-align: center;
 }
+#rick_source{
+    text-align: left;
+}
+#rick{
+    text-align: right;
+}
 .btn{
     border: none;
     background-color: inherit;
@@ -30,3 +36,9 @@ body{
     position: relative; top: 24px;
 }
 
+#sunroof{
+    border: solid; width: fit-content; margin: auto; height: 480px;
+}
+#menu{
+    position: relative ; left: 20px;
+}
