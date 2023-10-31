@@ -1,66 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <link rel="icon" href="ez.jpg">
+    <link rel="icon" href="assets/ez.jpg">
     <head>
-        <title>WideHardo</title>
+        <title>Marcell Ladanyi</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f70c83864d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <div id="menu">
             <a href="index.html">
-            <img src="logo-transparent-colored.png" id="logo" alt="logo" height="60">
+            <img src="assets/logo-transparent-colored.png" id="logo" alt="logo" height="60">
             </a>
             <a href="index.html">
             <button class="btn home"><b>Home</b></button>
             </a>
-            <a href="lyrics.html">
-                <button class="btn lyrics"><b>Lyrics</b></button>
+            <a href="#about_me">
+                <button class="btn aboutme"><b>About me</b></button>
             </a>
-            <a href="wut.html">
-                <button class="btn wut"><b>About me</b></button>
+            <a href="index.html">
+                <button class="btn lyrics"><b>(placeholder)</b></button>
             </a>
-            <a href="form.html">
-                <button class="btn form"><b>Form</b></button>
+            <a href="index.html">
+                <button class="btn form"><b>(placeholder)</b></button>
             </a>
-            <a href="contact.html">
+            <a href="#contact_me">
                 <button class="btn contact"><b>Contact</b></button>
             </a>
             </div>
-        <br>
-        <div id="hr_top_index">
-        <hr id="">
-        </div>
-        <h1 align="center">Trailer</h1>
-        <div id="sunroof">
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/njp86VTiU6g?rel=0&controls=0&autoplay=1&showinfo=0&loop=1&mute=1&playlist=njp86VTiU6g" title="Sunroof | Funky72" frameborder="0"></iframe>
-        </div>
-        <br>
-        <h1 align="center">My socials</h1>
-        <header>
-        <div id="socials">
+            <br>
+            <div id="hr_top_index">
+            <hr id="">
+            </div>
+            <h1 align="center">Trailer</h1>
+            <div id="sunroof">
+            <iframe style="border-radius: 20px" width="853" height="480" src="https://www.youtube.com/embed/njp86VTiU6g?rel=0&controls=0&autoplay=1&showinfo=0&loop=1&mute=1&playlist=njp86VTiU6g" title="Sunroof | Funky72" frameborder="0"></iframe>
+            </div>
+            <br>
+            <h1 align="center">My socials</h1>
+            <br>
+            <header>
+            <div id="socials">
             <span id="youtube">
             <a href="https://www.youtube.com/channel/UCNf24gW8YLVzH-3IdT7D1aA" target="_blank">
-                <img src="youtube.png" alt="Youtube Channel" height="170px">
+                <i class="fa-brands fa-youtube fa-5x"></i>
             </a>
             </span>
             <span id="twitch">
             <a href="https://twitch.tv/funky72_" target="_blank">
-                <img src="twitch.png" alt="Twitch Channel" height="120">
+                <i class="fa-brands fa-twitch fa-5x"></i>
             </a>
             <span id="tiktok">
             <a href="https://tiktok.com/@funky72s" target="_blank">
-                <img src="tiktok.png" alt="TikTok Channel" height="125px">
+                <i class="fa-brands fa-tiktok fa-5x"></i>
             </a>
             </span>
-        </div>
-        <br>
+            <span id="twitter">
+            <a href="https://x.com/@marcelladanyi" target="_blank">
+                <i class="fa-brands fa-x-twitter fa-5x"></i>
+            </a>
+            </span>
+            </div>
+            <br>
+            <br>
+            <h1 align="center">About me</h1>
+            <div id="about_me" align="center">
+                <pre id="about_me_text" style="font-size: 20px;">
+    Hey,
+
+                My name is Mihaly Marcell Ladanyi. I was born Hungary, and have been living in Germany for about ten years now.
+                I have gotten my Highschool Diploma in Germany where I aim to become a Front End Developer.
+                Also, this website is one of my first creations with HTML, CSS and Javascript with the React framework.
+
+            </pre>
+            <!-- placeholder for picture -->
+            </div>
+        
         <footer>
             <hr>
+            <div id="contact_me">
+                <label for="email"><b>Email: </b></label>
+                <a href="ladanyimihaly@naver.com">    
+                    ladanyimm88@gmail.com    
+                </a>    
+            </div>
+            <br>
             &copy; copyright reserved
         </footer>
+        <script src="index.js"></script>
     </body>
 </html>

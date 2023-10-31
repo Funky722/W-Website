@@ -1,9 +1,10 @@
 html{
     font-family: Poppins, arial;
     color: white;
+    scroll-behavior: smooth;
 }
 body{
-    background: url("background.png")
+    background: url("assets/background.png")
 }
 #p1{
     font-family: Poppins;
@@ -24,11 +25,21 @@ body{
     display: inline-block;
 }
 /* on mouse hover */
-.btn:hover {background: rgba(255, 255, 255, 0);}
+.btn:hover{
+    background: rgba(255, 255, 255, 0);
+}
+.btn:hover{
+    color: #8b33c4;
+    animation-name: glow;
+    animation-duration: 2s;
+}
+@keyframes glow{
+    100%{text-shadow: 0px 0px 50px #8b33c4}
+}
 
 .home {color: white;}
 .lyrics {color: white;}
-.wut {color: white;}
+.aboutme {color: white;}
 .form {color: white;}
 .contact {color: white;}
 
@@ -37,25 +48,54 @@ body{
 }
 
 #sunroof{
-    border: solid; width: fit-content; margin: auto; height: 480px;
+    border: solid; border-radius: 20px; width: fit-content; margin: auto; height: 480px;
     pointer-events: none;
 }
 #menu{
     margin: 12px;
     position: relative ; left: 20px;
 }
-#socials{
-    margin: auto; text-align: center;
+#menu a{
+    text-decoration: none;
+
 }
 #hr_top_index{
-    width: 58%;
+    width: 65%;
+}
+#socials{
+    margin: auto; margin-left: 90px; text-align: center;
+}
+#socials a{
+    text-decoration: none;
 }
 #youtube{
-    position: relative; bottom: 15px; right: 50px;
+    position: relative; bottom: 15px; right: 200px;
+}
+#youtube a{
+    color: red;
 }
 #twitch{
-    position: relative; bottom: 7px; right: 15px;
+    position: relative; bottom: 7px; right: 100px;
+}
+#twitch a{
+    color: #6441a5;
 }
 #tiktok{
-    position: relative; bottom: 34px; left: 50px;
+    position: relative; bottom: 3px; left: 100px;
+}
+#tiktok a{
+    color: black;
+    filter: drop-shadow(-2px -4px #24f6f0) drop-shadow(2px 5px #fe2d52); 
+}
+#twitter{
+    position: relative; bottom: 7px; left: 200px;
+}
+#twitter a{
+    color: white;
+}
+#about_me_text{
+    font-family: Poppins;
+}
+#contact_me a{
+    color: white;
 }
