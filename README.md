@@ -1,3 +1,3 @@
 # W-Website
-# WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-# PogOff
+# https://funky722.github.io/W-Website/index.html
+# PogU
